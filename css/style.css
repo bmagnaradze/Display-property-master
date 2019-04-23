@@ -59,6 +59,28 @@ a{
 	font-size: 30px;
 	color:  green;
 }
+.box1{
+	width: 570px;
+	height: 320px;
+	background-color: blue;
+	display: inline-block;
+
+	/*float: left;*/
+
+}
+.box2{
+	width: 570px;
+	height: 320px;
+	background-color: red;
+	display: inline-block;
+	float: right;
+
+}
+.clear{
+	clear: both;
+}
+
+
 /*.navigation-li{
 	display: inline-block;
 }*/
