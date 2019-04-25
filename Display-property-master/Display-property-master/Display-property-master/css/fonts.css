@@ -7,11 +7,3 @@
          url('../fonts/alk-life-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/alk-life-webfont.svg#alk_liferegular') format('svg'); /* Legacy iOS */
 }
-
-@font-face {
-    font-family: 'Dokdo';
-    src: url('../fonts/Dokdo-Regular.woff2') format('woff2'),
-        url('../fonts/Dokdo-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}

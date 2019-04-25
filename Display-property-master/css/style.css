@@ -16,14 +16,27 @@
 	/*text-align: center;*/
 }
 .text2{
-	color: blue;
-	border: 2px solid green;
-	margin-top: 50px;
+	color: red;
+	/*border: 2px solid green;*/
+	/*margin-top: 50px;*/
 	/*padding-left: 30px;*/
 	display: inline-block;
-	font-family: 'ALK Life', sans-serif;
-	font-weight: bold;
+	/*font-family: 'ALK Life', sans-serif;*/
+	/*font-weight: bold;*/
+	text-transform: uppercase;
 
+}
+.text2::after{
+	content: "";
+	width: 3px;
+	height: 30px;
+	background-color: green;
+	display: inline-block;
+
+}
+.text3{
+	color: red;
+	display: inline-block;
 }
 
 
@@ -46,6 +59,7 @@ a{
 	font-family: 'Dokdo', cursive;
 	font-size: 40px;
 	font-style: italic;
+
 }
 .image{
 	height: 80px;
@@ -63,7 +77,7 @@ a{
 	width: 570px;
 	height: 320px;
 	background-color: blue;
-	display: inline-block;
+	/*display: inline-block;*/
 
 	/*float: left;*/
 
@@ -73,12 +87,51 @@ a{
 	height: 320px;
 	background-color: red;
 	display: inline-block;
-	float: right;
+	/*float: right;*/
 
 }
 .clear{
 	clear: both;
 }
+/*.divider{
+	width: 3px;
+	height: 30px;
+	background-color: #3D58A6;
+	display: inline-block;
+	margin: 0 5px;
+}*/
+.social-icon::after{
+	content: "";
+	width: 3px;
+	height: 30px;
+	background-color: red;
+	display: inline-block;
+	margin: 0 5px;
+
+}
+.navigation-lii a {
+	font-size: 30px;
+}
+.navigation-lii::after{
+	content: "";
+	width: 3px;
+	height: 30px;
+	background-color: red;
+	display: inline-block;
+	margin: 0 5px;
+
+}
+.navigation-lii::before{
+	content: "text1";
+
+}
+.wrapper::after{
+	content: "";
+	clear: both;
+	display: block;
+
+}
+
 
 
 /*.navigation-li{

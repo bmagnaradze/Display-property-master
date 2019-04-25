@@ -22,7 +22,6 @@
 	/*padding-left: 30px;*/
 	display: inline-block;
 	font-family: 'ALK Life', sans-serif;
-	font-weight: bold;
 
 }
 
@@ -43,44 +42,11 @@ a{
 }
 .test{
 	display:inline-block;
-	font-family: 'Dokdo', cursive;
-	font-size: 40px;
-	font-style: italic;
 }
 .image{
 	height: 80px;
 
 }
-.fa-facebook-f{
-	font-size: 30px;
-	color: aqua;
-}
-.fa-google-plus-g{
-	font-size: 30px;
-	color:  green;
-}
-.box1{
-	width: 570px;
-	height: 320px;
-	background-color: blue;
-	display: inline-block;
-
-	/*float: left;*/
-
-}
-.box2{
-	width: 570px;
-	height: 320px;
-	background-color: red;
-	display: inline-block;
-	float: right;
-
-}
-.clear{
-	clear: both;
-}
-
-
 /*.navigation-li{
 	display: inline-block;
 }*/
